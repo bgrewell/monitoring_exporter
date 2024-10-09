@@ -1,0 +1,13 @@
+logs:
+  ssh_log_path: /var/log/auth.log
+  other_log_path: /var/log/system.log
+
+prometheus:
+  metrics_port: ":9991"
+  metrics_path: /metrics
+
+intervals:
+  log_scan_interval: "5s"
+
+collectors:
+  ssh: true
